@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Other Projects</title>
+    <link rel="stylesheet" href="other.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="works.html">Works</a></li>
+                <li><a href="about.html">About Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="slider-container">
+        <h1 class="slide-title">Other Projects</h1>
+            <div class="slide-content">
+                <div class="slide" id="slide1">
+                    <img src="1500.png">
+                    <div class="project-description"><a href="https://github.com/Nai0Eileen/1500-Final-Project">Book Store Management System</a></div>
+                </div>
+                <div class="slide" id="slide2">
+                    <img src="1430.png">
+                    <div class="project-description"><a href="https://github.com/JamesZhan250/FinalProject">AR Guidance System</a></div>
+                </div>
+            </div>
+        <div class="slide-arrow left-arrow" onclick="previousSlide()">&#60;</div>
+        <div class="slide-arrow right-arrow" onclick="nextSlide()">&#62;</div>
+    </div>
+
+    <script src="scripts.js"></script>
+
+        <section id="contact">
+        <h2>Feel free to contact me!</h2>
+        <form action="submit_form.php" method="POST"> 
+            <input type="email" name="email" placeholder="Enter a valid email address" required>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 Hanzhang Bao. All rights reserved.</p>
+    </footer>
+</body>
+</html>
